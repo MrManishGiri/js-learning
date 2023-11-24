@@ -41,7 +41,7 @@ console.log(JsUser.greeting); // it will return [function (anonymous)]
 // console.log(JsUser.greeting())
 
 JsUser.greetingTwo = function(){
-    console.log(`Hello Js Users teacher is ${this.teacher}` );
+    console.log(`Hello Js Users teacher is ${this.teacher}` ); // string interpolation by using backtick(` `).
 }
 
 console.log(JsUser.greetingTwo())
